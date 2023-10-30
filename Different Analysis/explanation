@@ -1,1 +1,59 @@
+Box:
 
+The box in the plot represents the interquartile range (IQR) of the dataset.
+The bottom edge of the box is the first quartile (Q1), representing the 25th percentile of the data.
+The line inside the box is the median (or Q2), which is the middle value of the dataset when it's ordered.
+Whiskers:
+
+The lines (whiskers) extend from the box and show the range of the rest of the data.
+They indicate the minimum and maximum values within 1.5 times the IQR from the first and third quartiles, respectively.
+Any data beyond the whiskers is considered an outlier and is plotted as individual points.
+Outliers:
+
+Individual points outside the whiskers are potential outliers and are displayed as separate data points on the plot.
+
+Interpretation:
+
+The box plot allows you to quickly visualize the spread of the data and its central tendency.
+It helps in identifying the range of the middle 50% of the data and the presence of outliers.
+The length of the box shows the spread of the central 50% of the data.
+If the median line within the box is closer to one end, it indicates skewness in the data.
+
+Usage:
+
+It's often used to compare distributions between different groups or to identify differences in a single group under different conditions.
+
+
+
+
+what is IQR?
+
+The Interquartile Range (IQR) is a measure of statistical dispersion or variability within a dataset. It's used to understand the spread or distribution of the middle part of a set of data points. To calculate the IQR, you first need to determine the quartiles.
+Quartiles divide a dataset into four equal parts. There are three quartiles:
+First Quartile (Q1): This is the median (middle value) of the lower half of the data when it is sorted in ascending order. It represents the point below which 25% of the data falls.
+Second Quartile (Q2): This is simply the median of the entire dataset. It represents the middle value when the data is arranged in order.
+Third Quartile (Q3): This is the median of the upper half of the data when it is sorted. It represents the point below which 75% of the data falls.
+
+The Interquartile Range (IQR) is then calculated as the difference between the third quartile (Q3) and the first quartile (Q1):
+IQR=Q3−Q1
+The IQR essentially describes the spread of the middle 50% of the data. It's used as a robust measure of variability because it is less sensitive to outliers or extreme values in the dataset. A larger IQR suggests a greater variability among the central part of the data, while a smaller IQR indicates that the values tend to be closer to the median.
+In a box plot, the 'box' represents this IQR, with the whiskers extending to the minimum and maximum values that fall within 1.5 times the IQR from the lower and upper quartiles, respectively. Any points beyond the whiskers are often considered outliers.
+
+
+
+What is Robust??
+"Robust" in the context of statistics refers to the ability of a statistical method to provide accurate and reliable results even when the assumptions of the method are not perfectly met or when there are outliers or deviations from the typical pattern in the data.
+For example, the mean (average) is not considered a robust measure of central tendency because it is highly influenced by outliers. A single extremely high or low value can significantly skew the mean. On the other hand, the median is a robust measure of central tendency because it is less affected by outliers; it is simply the middle value when the data is ordered.
+
+Similarly, the Interquartile Range (IQR) is a robust measure of variability because it is based on quartiles and is less sensitive to extreme values, making it a more robust measure of spread than the standard deviation.
+
+
+
+What are outliers??
+Outliers are data points that significantly differ from other observations in a dataset. These data points are often distinctively higher or lower than most other data points and do not follow the general pattern or distribution of the rest of the data.
+
+
+In heatmap color intensity shows???
+In a heatmap, the color intensity, particularly darker shades, is used to represent the magnitude or strength of the relationship between different variables in a dataset. Darker colors usually indicate higher values or stronger correlations, depending on the context of the heatmap.
+
+Heatmaps are often used to visualize relationships between variables in a tabular format where the values are represented by colors. The color scale in a heatmap typically varies from light to dark, with lighter shades representing lower values or weaker correlations, and darker shades indicating higher values or stronger correlations.
